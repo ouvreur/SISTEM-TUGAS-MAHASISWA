@@ -50,3 +50,35 @@ Pipeline CI dikonfigurasi melalui file .github/workflows/ci.yml yang diatur untu
 ## 10. Hasil Pengujian
 - Event Push: Berhasil berjalan otomatis dan lolos seluruh pengujian (Status: Success).
 - Event Pull Request: Terverifikasi otomatis pada PR #1 (Status: All checks have passed).
+  
+## Pembagian Tugas Anggota
+Pembagian Tugas Anggota
+Proyek Sistem Pengelolaan Tugas Mahasiswa dikerjakan oleh tiga anggota kelompok dengan pembagian tanggung jawab sebagai berikut.
+1.	Sabina Rahayu 071 — Backend Developer
+Tugas dan tanggung jawab:
+- Membuat server menggunakan Node.js dan Express.js.
+- Membuat fitur tambah tugas.
+- Membuat fitur menampilkan daftar tugas.
+- Membuat fitur mengubah tugas.
+- Membuat fitur menghapus tugas.
+- Mengatur penyimpanan data menggunakan JSON.
+- Memperbaiki kesalahan pada backend berdasarkan hasil pengujian.
+2.	Risqillah Dwi R 056 — Software Tester
+Tugas dan tanggung jawab:
+- Membuat pengujian otomatis menggunakan Node.js Test Runner dan Supertest.
+- Menguji seluruh fitur backend.
+- Menguji endpoint GET, POST, PUT, dan DELETE.
+- Menguji validasi data yang dimasukkan.
+- Menemukan dan melaporkan kesalahan pada backend.
+- Melakukan pengujian ulang setelah perbaikan.
+- Menyiapkan bukti hasil pengujian gagal dan berhasil.
+3.	Nurul Asma 078 — CI dan Dokumentasi
+Tugas dan tanggung jawab:
+- Membuat repository proyek di GitHub.
+- Mengunggah seluruh file proyek ke GitHub.
+- Membuat workflow GitHub Actions.
+- Mengatur workflow untuk push dan pull request.
+- Mengatur instalasi dependency dan pengujian otomatis.
+- Membuat dokumentasi proyek dalam README.
+- Mengumpulkan bukti hasil pipeline CI.
+
